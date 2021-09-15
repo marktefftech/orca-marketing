@@ -1,9 +1,9 @@
 ---
 template: HomePage
-slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+slug: ""
+title: ORCA
+featuredImage: https://ucarecdn.com/079bb8a0-6e34-4d44-a8e6-19c914e9154a/
+subtitle: Oceanic Remote Chemistry Analysis
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
