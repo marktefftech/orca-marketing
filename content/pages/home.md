@@ -13,5 +13,5 @@ meta:
 
 ---
 
-![Co2 Dashboard](/dashboard.png)
+![Co2 Dashboard](https://asset-hosting.s3.us-west-2.amazonaws.com/dashboard.png)
 

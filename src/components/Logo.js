@@ -5,7 +5,7 @@ export default () => (
   <div
     className="Logo"
     style={{
-      backgroundImage: `url(/images/orca-logo-big.svg)`
+      backgroundImage: `url('https://asset-hosting.s3.us-west-2.amazonaws.com/orca-logo-big.svg')`
     }}
   />
 )
