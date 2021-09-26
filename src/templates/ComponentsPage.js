@@ -37,14 +37,8 @@ export const ComponentsPageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
+        <h2>Measuring Carbon at Scale</h2>
         <Gallery images={gallery} />
-      </div>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Content source={section2} />
       </div>
     </section>
 
@@ -52,6 +46,12 @@ export const ComponentsPageTemplate = ({
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
+    </section>
+
+    <section className="section">
+      <div className="container">
+        <Content source={section2} />
+      </div>
     </section>
 
     <section className="section">
