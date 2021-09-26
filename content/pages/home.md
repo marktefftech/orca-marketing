@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: ORCA
-featuredImage: https://ucarecdn.com/079bb8a0-6e34-4d44-a8e6-19c914e9154a/
+featuredImage: https://ucarecdn.com/b9127202-23a1-4687-a93d-d9ecc4e62ac2/
 subtitle: Oceanic Remote Chemistry Analysis
 meta:
   description: This is a meta description.
