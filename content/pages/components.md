@@ -2,7 +2,7 @@
 template: ComponentsPage
 slug: components
 title: Carbon.
-featuredImage: https://developers.google.com/earth-engine/images/datasets/gifs/nighttimelights_big2.gif
+featuredImage: https://ucarecdn.com/e6bc9147-72c2-4273-9f13-d2879a520a58/
 subtitle: Measuring and verification from space.
 section1: >-
   ## Enter gif interacting with Erik's model
