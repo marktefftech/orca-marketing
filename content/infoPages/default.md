@@ -1,44 +1,46 @@
 ---
 template: DefaultPage
 slug: default
-title: Default
-featuredImage: https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/
+title: X-Prize Carbon Removal
+featuredImage: https://ucarecdn.com/883b90dc-df5d-43c4-9f07-411b108c1b30/
 meta:
   description: test meta description
   title: test meta title
 ---
+# ORCA - Oceanic Remote Chemistry Analysis
 
-## This is the DefaultPage template
+### Sponsored by the University of Texas at Austin
 
-Paragraphs are separated by a blank line.
+#### Core team members
 
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
+* Erik Vosburgh
 
-### Unordered lists:
 
-- this one
-- that one
-- the other one
+* Shrina 
 
-### Ordered lists:
 
-1.  first item
-1.  second item
-1.  third item
+* James
 
-> Block quotes are written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+   
 
-# Heading 1
 
-## Heading 2
+* Mark Teffeteller
 
-### Heading 3
 
-#### Heading 4
 
-##### Heading 5
+#### Additional credit to the following contributors
 
-###### Heading 6
+
+
+* Professor Yarish, Seaweed Expert
+
+
+* Ankur Shah, Geospatial Expert 
+
+
+* Sam Jett, Machine Learning Advisor
+
+   
+
+
+* Terrance Clemens, Oceanography advisor
