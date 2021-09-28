@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import Image from '../components/Image'
 import Slider from '../components/Slider'
 import MyGallery from '../components/MyGallery'
 
@@ -32,9 +31,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
           cannot see with the naked eye. By leveraging data collected from cutting-edge satellite sensors, 
           we use image filtering and machine learning techniques to quantify carbon. 
         </p> 
-        <Slider />
+        {/* <Slider /> */}
       </div>
-    </section>
+    </section> 
 
     <section className="section">
       <div className="container">
@@ -49,12 +48,22 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 
     <section className="section">
       <div className="container">
+        <h1> Accurately Quantify Carbon Sequestraion </h1>
+        <p> Our interactive dashboards allow users to select areas of interest and timeframes in order 
+            to generate high-quality reporting of the carbon concentrations in that area over time.
+        </p> 
+        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/carbon.gif"} alt="alt text"/>
+      </div>
+    </section>
+
+    <section className="section">
+      <div className="container">
         <h1> Built for Scale </h1>
         <p> Industry leading best methods of cloud computing are at the core of infrastructure.
             Earth Observation is an inherently massive source of data, our cloud partners help make daily 
             analysis possible
         </p> 
-        <Image src={"https://asset-hosting.s3.us-west-2.amazonaws.com/ORCA+Process+Flow+Diagram.svg"} />
+        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/ORCA+Process+Flow+Diagram.svg"} alt="alt text" />
       </div>
     </section>
 
