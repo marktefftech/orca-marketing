@@ -4,8 +4,8 @@ slug: default
 title: X-Prize Carbon Removal
 featuredImage: https://ucarecdn.com/11f07d67-705a-4caf-9978-97dbd64ee31a/
 meta:
-  description: test meta description
-  title: test meta title
+  description: ""
+  title: Team Page
 ---
 # ORCA - Oceanic Remote Chemistry Analysis
 
