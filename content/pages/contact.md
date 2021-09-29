@@ -14,8 +14,8 @@ locations:
     lng: "153.2432449"
     mapLink: ""
 meta:
-  description: This is a meta description.
-  title: Team Page
+  description: ""
+  title: Demo Page
 ---
 # Want to see the working solution?
 
