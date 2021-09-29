@@ -27,14 +27,13 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 
     <section className="section">
       <div className="container">
-        <h1> Built for Scale </h1>
-        <p> Cutting-edge <strong>cloud computing</strong> practices are at the core of our infrastructure.
-            Earth Observation is an inherently <strong>massive source of data</strong>, cloud providers provide us with
-            the tools necessary to make this analysis possible.
+        <h1> What if Carbon Wasn't Invisible? </h1>
+        <p> <strong>Remote Sensing</strong> captures light from parts of the <strong>electromagnetic</strong> spectrum that the human 
+          eye cannot see. By using image filtering techniques, we quantify and predict levels of carbon and other harmful greenhouse gases. 
         </p> 
-        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/website-cloud-arch.png"} className="centeredImage" alt="alt text" />
+        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/remote-sensing-exp.png"} className="centeredImage" alt="alt text" />
       </div>
-    </section>
+    </section> 
 
     <section className="section">
       <div className="container">
@@ -49,13 +48,14 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 
     <section className="section">
       <div className="container">
-        <h1> What if Carbon Wasn't Invisible? </h1>
-        <p> <strong>Remote Sensing</strong> captures light from parts of the <strong>electromagnetic</strong> spectrum that the human 
-          eye cannot see. By using image filtering techniques, we quantify and predict levels of carbon and other harmful greenhouse gases. 
+        <h1> Built for Scale </h1>
+        <p> Cutting-edge <strong>cloud computing</strong> practices are at the core of our infrastructure.
+            Earth Observation is an inherently <strong>massive source of data</strong>, cloud providers provide us with
+            the tools necessary to make this analysis possible.
         </p> 
-        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/remote-sensing-exp.png"} className="centeredImage" alt="alt text" />
+        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/website-cloud-arch.png"} className="centeredImage" alt="alt text" />
       </div>
-    </section> 
+    </section>
 
     <section className="section">
       <div className="container">
