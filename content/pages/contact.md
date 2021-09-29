@@ -3,7 +3,7 @@ template: ContactPage
 slug: contact
 title: Demo
 featuredImage: https://ucarecdn.com/c2c390ad-a4da-494f-82c2-0f9852a12713/
-subtitle: See the working product in action
+subtitle: See the solution in action
 address: |-
   801 Brazos St
   Austin, TX 78701
@@ -17,4 +17,6 @@ meta:
   description: This is a meta description.
   title: Team Page
 ---
-# Get in contact to request a demo of the working solution
+# Want to see the working solution?
+
+We want to show it to you. Due to the complex nature of our web application, it cannot yet be deployed in a production-ready environment. We're working on it.
