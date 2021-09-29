@@ -12,12 +12,6 @@ meta:
 
 A cloud-native web application allows users to define a surface area of Earth for remote analysis via satellite. Remote sensing data is combined with oceanic sensor is to accurately measure chemical properties of Earth’s oceans.
 
-
-
 - - -
 
-
-
-
-
-![Co2 Dashboard](https://ucarecdn.com/adb2e223-2aac-4781-b6c2-993395079a50/)
+![Co2 Dashboard](https://ucarecdn.com/cdc52e0b-8b8c-4e90-8263-ebd99f8f5952/)
