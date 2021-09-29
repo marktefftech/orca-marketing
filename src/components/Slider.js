@@ -1,17 +1,17 @@
 import React from 'react'
  
-import BeforeAfterSlider from 'react-before-after-slider'
+import { ImgComparisonSlider } from '@img-comparison-slider/react';
  
 class Slider extends React.Component {
   render () {
  
     return (
-      <BeforeAfterSlider
-        before={"https://asset-hosting.s3.us-west-2.amazonaws.com/ORCA+Process+Flow+Diagram.svg"}
-        after={"https://asset-hosting.s3.us-west-2.amazonaws.com/ORCA+Process+Flow+Diagram.svg"}
-        width={640}
-        height={480}
-      />
+      <div>
+        <ImgComparisonSlider>
+          <img slot="first" src="https://asset-hosting.s3.us-west-2.amazonaws.com/ORCA+Process+Flow+Diagram.svg" />
+          <img slot="second" src="https://asset-hosting.s3.us-west-2.amazonaws.com/ORCA+Process+Flow+Diagram.svg" />
+        </ImgComparisonSlider>
+      </div>
     )
   }
 }

@@ -4,8 +4,9 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import Slider from '../components/Slider'
 import MyGallery from '../components/MyGallery'
+
+import './HomePage.css'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
@@ -26,21 +27,21 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 
     <section className="section">
       <div className="container">
-        <h1> What if Carbon Wasn't Invisible? </h1>
-        <p> Remote sensing captures light from parts of the electromagnetic spectrum that humans 
-          cannot see with the naked eye. By leveraging data collected from cutting-edge satellite sensors, 
-          we use image filtering and machine learning techniques to quantify carbon. 
+        <h1> Built for Scale </h1>
+        <p> Cutting-edge <strong>cloud computing</strong> practices are at the core of our infrastructure.
+            Earth Observation is an inherently <strong>massive source of data</strong>, cloud providers provide us with
+            the tools necessary to make this analysis possible.
         </p> 
-        {/* <Slider /> */}
+        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/website-cloud-arch.png"} className="centeredImage" alt="alt text" />
       </div>
-    </section> 
+    </section>
 
     <section className="section">
       <div className="container">
-        <h2>Carbon Sequestration Opportunities</h2>
-        <p> A key differentiator of ORCA is incorporating oceanic data from sensors submerged
-           in water. Once satellite and subsurface data is aggregated, cloud-based machine
-            learning models analyze images to quantify carbon concentrations and predict sequestration rates over time.
+        <h2>Carbon Sequestration. From Space.</h2>
+        <p> Our key a focus is to help scale Blue Carbon solutions such as <strong>Seaweed Farming </strong>
+            and <strong> Coastal Carbon Capture</strong>. Satellite and Ocean sensor data is combined 
+            to paint a picture of the ocean's biogeochemical cycle.
         </p> 
         <MyGallery />
       </div>
@@ -48,25 +49,23 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 
     <section className="section">
       <div className="container">
-        <h1> Accurately Quantify Carbon Sequestraion </h1>
-        <p> Our interactive dashboards allow users to select areas of interest and timeframes in order 
-            to generate high-quality reporting of the carbon concentrations in that area over time.
+        <h1> What if Carbon Wasn't Invisible? </h1>
+        <p> <strong>Remote Sensing</strong> captures light from parts of the <strong>electromagnetic</strong> spectrum that the human 
+          eye cannot see. By using image filtering techniques, we quantify and predict levels of carbon and other harmful greenhouse gases. 
         </p> 
-        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/carbon.gif"} alt="alt text"/>
+        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/remote-sensing-exp.png"} className="centeredImage" alt="alt text" />
       </div>
-    </section>
+    </section> 
 
     <section className="section">
       <div className="container">
-        <h1> Built for Scale </h1>
-        <p> Industry leading best methods of cloud computing are at the core of infrastructure.
-            Earth Observation is an inherently massive source of data, our cloud partners help make daily 
-            analysis possible
+        <h1> Accurately Quantify Sequestration Efforts </h1>
+        <p> Our interactive dashboards allow users to <strong>select an area of interest</strong> and timeframe 
+            to generate <strong>accurate, scalable</strong> reporting related to carbon concentrations over time.
         </p> 
-        <img src={"https://asset-hosting.s3.us-west-2.amazonaws.com/ORCA+Process+Flow+Diagram.svg"} alt="alt text" />
+        <img className="centeredImage" src={"https://asset-hosting.s3.us-west-2.amazonaws.com/ipad.gif"} alt="alt text"/>
       </div>
     </section>
-
   </main>
 )
 

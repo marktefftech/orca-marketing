@@ -39,7 +39,6 @@
     "postcss-preset-env": "^6.7.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
-    "react-before-after-slider": "^1.0.4",
     "react-dom": "^16.11.0",
     "react-feather": "^2.0.3",
     "react-helmet": "^5.2.1",
